@@ -8,3 +8,10 @@
     align-items: center;
     justify-content: center;
 }
+#container > div.entrada {
+    margin-bottom: 0.5rem;
+}
+#ticket > p {
+    border-top: solid;
+    padding: 0.5rem;
+}
