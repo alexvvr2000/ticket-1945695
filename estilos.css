@@ -8,10 +8,22 @@
     align-items: center;
     justify-content: center;
 }
-#container > div.entrada {
-    margin-bottom: 0.5rem;
+
+div.entrada {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
+
 #ticket > p {
-    border-top: solid;
+    border-top: 2px solid;
     padding: 0.5rem;
+}
+
+#btnTotal {
+    font-size: 1rem;
+    width: 15rem;
+    border-radius: 20px;
+    padding: 0.5rem;
+    background-color: #620D4F;
+    color: white;
 }
