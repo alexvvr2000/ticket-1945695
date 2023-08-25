@@ -30,5 +30,5 @@ div.entrada {
 
 #listaArticulos {
     overflow: scroll;
-    max-height: 100px;
+    height: 100px;
 }
