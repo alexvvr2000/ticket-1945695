@@ -9,6 +9,11 @@ function agregarTicket(nombreArticulo, precioArticulo) {
     actualizarTotal();
 }
 
+function actualizarTotal() {
+    let campoTotal = document.getElementById("campoTotal")
+    campoTotal.innerHTML = `<strong>TOTAL:${sumaTotal}</strong>`
+}
+
 function agregarArticulo(){
     let nombreArticulo = document.getElementById("articulotxt").value
     let precioArticulo = document.getElementById("preciotxt").value
