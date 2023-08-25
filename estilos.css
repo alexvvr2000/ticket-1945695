@@ -27,3 +27,8 @@ div.entrada {
     background-color: #620D4F;
     color: white;
 }
+
+#listaArticulos {
+    overflow: scroll;
+    max-height: 100px;
+}
