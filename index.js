@@ -1,9 +1,12 @@
 var sumaTotal = 0;
 
 function agregarTicket(nombreArticulo, precioArticulo) {
-}
-
-function actualizarTotal() {
+    const mensajePantalla = `${nombreArticulo}: ${precioArticulo}`
+    let listaElementos = document.getElementById("listaArticulos")
+    let nuevoElemento = document.createElement("LI");
+    nuevoElemento.innerHTML = mensajePantalla
+    listaElementos.appendChild(nuevoElemento)
+    actualizarTotal();
 }
 
 function agregarArticulo(){
@@ -11,5 +14,4 @@ function agregarArticulo(){
     let precioArticulo = document.getElementById("preciotxt").value
     sumaTotal += parseInt(precioArticulo)
     agregarTicket(nombreArticulo, precioArticulo);
-    actualizarTotal();
 }
